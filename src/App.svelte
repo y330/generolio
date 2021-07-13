@@ -2,12 +2,12 @@
 	import Navigation from "./components/Navigation.svelte";
 	// Sections
 	import Header from "./components/Header.svelte";
-	import Intro from "./Intro.svelte";
-	import About from "./About.svelte";
+	import Intro from "./components/Intro.svelte";
+	import About from "./components/About.svelte";
 	import LatestPosts from "./components/LatestPosts.svelte";
 	import Projects from "./components/Projects.svelte";
-	import Footer from "./Footer.svelte";
-	// Config
+	import Footer from "./components/Footer.svelte";
+
 	import Tailwind from "./Tailwind.svelte";
 </script>
 <!--------Config---------->
