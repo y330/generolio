@@ -83,7 +83,7 @@
 							elit.
 						</p>
 
-						<span class="block mt-2 text-gray-500"
+						<span class="block mt-2 text-gray-400"
 							>tailwindcomponents.com</span
 						>
 					</div>

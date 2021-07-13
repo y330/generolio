@@ -6,7 +6,7 @@
 
 	<div class="flex flex-col items-center justify-center mt-6">
 		<a
-			class="hover:-translate-y-1 hover:scale-110 block w-full max-w-2xl transition duration-500 ease-in-out transform bg-white border-t-4 border-indigo-600 rounded-md shadow-md"
+			class="hover:-translate-y-1 hover:scale-110 block w-full max-w-2xl transition duration-500 ease-in-out transform bg-white border-t-4 border-green-600 rounded-md shadow-md"
 			href="#"
 		>
 			<div class="flex items-center justify-between px-4 py-2">
@@ -21,7 +21,7 @@
 		</a>
 
 		<a
-			class="hover:-translate-y-1 hover:scale-110 block w-full max-w-2xl mt-8 transition duration-500 ease-in-out transform bg-white border-t-4 border-indigo-600 rounded-md shadow-md"
+			class="hover:-translate-y-1 hover:scale-110 block w-full max-w-2xl mt-8 transition duration-500 ease-in-out transform bg-white border-t-4 border-green-600 rounded-md shadow-md"
 			href="#"
 		>
 			<div class="flex items-center justify-between px-4 py-2">

@@ -11,7 +11,7 @@
 
 					<div class="flex items-center -mx-2">
 						<a
-							class="hover:text-indigo-600 flex items-center mx-2 text-gray-600"
+							class="hover:text-green-600 flex items-center mx-2 text-gray-600"
 							href="#"
 						>
 							<svg

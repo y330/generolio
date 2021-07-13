@@ -3,7 +3,7 @@
 
 			<div class="max-w-2xl px-6 mx-auto text-center">
 				<h2 class="text-3xl font-semibold text-gray-800">
-					Hi, <span class="px-1 text-white bg-indigo-600 rounded"
+					Hi, <span class="px-1 text-white bg-green-600 rounded"
 						>I’m Yonah</span
 					> . Nice to meet you.
 				</h2>

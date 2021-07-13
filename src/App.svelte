@@ -16,10 +16,10 @@
 
 
 <div class="bg-gray-50 h-screen">
-	<Navigation />
+	<!-- <Navigation /> -->
 
 	<div>
-		<header class="bg-white border-t-4 border-indigo-600 shadow">
+		<header class="bg-white border-t-4 border-green-600 shadow">
 			<Header />
 		</header>
 		<section class="mt-20 bg-white">
@@ -42,7 +42,7 @@
 	</div>
 </div>
 
-<style>
+<style global>
 	:root {
 		--svelte-rgb: 255, 62, 0;
 	}
@@ -51,15 +51,19 @@
 	}
 
 	::-webkit-scrollbar {
-		width: 5px;
+		width: 15px;
 	}
 	::-webkit-scrollbar-track {
 		background: #cbd5e0;
+	}	::-webkit-scrollbar-track:hover {
+		width: 11px;
 	}
 	::-webkit-scrollbar-thumb {
-		background: #2d3748;
+		background: #718096;
 	}
 	::-webkit-scrollbar-thumb:hover {
-		background: #718096;
+		background: #2d3748;
+		width: 19px;
+
 	}
 </style>
