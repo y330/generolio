@@ -10,6 +10,7 @@ This project was at first made just for Open Source Sunday of June 11 in the [Sl
 Using a boilerplate from someplace for Tailwind, Typescript, Svelte, and Snowpack. 
 
 ## Demo
+Funtionality in terms of user-customization is yet to be implemented.
 
 ![](example-portfolio-screenshot.png)
 
