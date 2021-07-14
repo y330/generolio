@@ -1,5 +1,5 @@
 # Generolio
-
+![icon](/icon.svg)
 ### By [Yonah Aviv](https://yonah.vercel.app)
 
 
