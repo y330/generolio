@@ -8,7 +8,7 @@
 		<div class="sm:grid-cols-2 lg:grid-cols-3 grid grid-cols-1 gap-6">
 			<div class="w-full max-w-xs">
 				<div
-					class="flex items-center justify-center h-56 overflow-hidden bg-white border-b-8 border-teal-400 rounded-md"
+					class="border-hex-7380ab lex items-center justify-center h-56 overflow-hidden bg-white border-b-8 rounded-md"
 				>
 					<img
 						class="object-cover h-8"
@@ -36,7 +36,7 @@
 
 			<div class="w-full max-w-xs">
 				<div
-					class="flex items-center justify-center h-56 overflow-hidden bg-white border-b-8 border-teal-400 rounded-md"
+					class="border-hex-92a1d2 flex items-center justify-center h-56 overflow-hidden bg-white border-b-8 rounded-md"
 				>
 					<img
 						class="object-cover h-8"
@@ -64,7 +64,7 @@
 
 			<div class="w-full max-w-xs">
 				<div
-					class="flex items-center justify-center h-56 overflow-hidden bg-white border-b-8 border-teal-400 rounded-md"
+					class="border-hex-92a1d2 flex items-center justify-center h-56 overflow-hidden bg-white border-b-8 rounded-md"
 				>
 					<img
 						class="object-cover h-8"

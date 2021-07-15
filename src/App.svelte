@@ -4,22 +4,21 @@
 	import Header from "./components/Header.svelte";
 	import Intro from "./components/Intro.svelte";
 	import About from "./components/About.svelte";
-	import LatestPosts from "./components/LatestPosts.svelte";
 	import Projects from "./components/Projects.svelte";
 	import Footer from "./components/Footer.svelte";
 
 	import Tailwind from "./Tailwind.svelte";
 </script>
+
 <!--------Config---------->
 <Tailwind />
 <!------------------------>
-
 
 <div class="bg-gray-50 h-screen">
 	<!-- <Navigation /> -->
 
 	<div>
-		<header class="bg-white border-t-4 border-green-600 shadow">
+		<header class="border-hex-63719e bg-white border-t-8 shadow">
 			<Header />
 		</header>
 		<section class="mt-20 bg-white">
@@ -30,7 +29,9 @@
 			<About />
 		</section>
 		<section class="py-20 bg-white">
-			<LatestPosts />
+			<div class="max-w-5xl px-6 mx-auto text-center">
+				<h2 class="text-2xl font-semibold text-gray-800">Experience</h2>
+			</div>
 		</section>
 		<section class="pattern py-20 bg-gray-800">
 			<Projects />
@@ -55,7 +56,8 @@
 	}
 	::-webkit-scrollbar-track {
 		background: #cbd5e0;
-	}	::-webkit-scrollbar-track:hover {
+	}
+	::-webkit-scrollbar-track:hover {
 		width: 11px;
 	}
 	::-webkit-scrollbar-thumb {
@@ -64,6 +66,5 @@
 	::-webkit-scrollbar-thumb:hover {
 		background: #2d3748;
 		width: 19px;
-
 	}
 </style>
