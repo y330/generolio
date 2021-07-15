@@ -1,20 +1,44 @@
-const sveltePreprocess = require('svelte-preprocess');
+/** @type {import('@sveltejs/kit').Config} */
+import node from '@sveltejs/adapter-node'
 
-const production = process.env.NODE_WATCH === 'production';
+export default {
+	// options passed to svelte.compile (https://svelte.dev/docs#svelte_compile)
+	compilerOptions: null,
 
-const preprocess = sveltePreprocess({
-  typescript: {
-    tsconfigFile: './tsconfig.json'
-  },
-  postcss: {
-    plugins: [
-      require('tailwindcss'),
-      require('autoprefixer')
-    ]
-  }
-});
+	// an array of file extensions that should be treated as Svelte components
+	extensions: ['.svelte'],
 
-module.exports = {
-  dev: !production,
-  preprocess
-};
+	kit: {
+		adapter: node(),
+		target: '#svelte',
+		amp: false,
+		appDir: '_app',
+		files: {
+			assets: 'static',
+			hooks: 'src/hooks',
+			lib: 'src/lib',
+			routes: 'src/routes',
+			serviceWorker: 'src/service-worker',
+			template: 'src/app.html'
+		},
+		floc: false,
+		hydrate: true,
+		paths: {
+			assets: '',
+			base: ''
+		},
+		prerender: {
+			crawl: true,
+			enabled: true,
+			force: false,
+			pages: ['*']
+		},
+		router: true,
+		ssr: true,
+		trailingSlash: 'never',
+		vite: () => ({})
+	},
+
+	// options passed to svelte.preprocess (https://svelte.dev/docs#svelte_preprocess)
+	preprocess: null
+}
