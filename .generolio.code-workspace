@@ -8,6 +8,14 @@
     "explorerExclude.backup": null,
     "windicss.sortOnSave": true,
     "windicss.colorDecoratorsType": "picker",
-    "windicss.foldCount": 34
+    "windicss.foldCount": 34,
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "node_modules": true
+    }
   }
 }

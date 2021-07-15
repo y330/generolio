@@ -1,5 +1,5 @@
 # Generolio
-![icon](/icon.svg)
+![icon](/static/img/icon_animated.svg)
 ### By [Yonah Aviv](https://yonah.vercel.app)
 
 
@@ -7,7 +7,7 @@ __Description__: Generate web-dev quality portfolio with this no-code solution
 
 This project was at first made just for Open Source Sunday of June 11 in the [Slingshot](https://slingshotahead.com/) discord server, but will become a legitimate project and will turn into a polished website at the end of the summer.
 
-Using a boilerplate from someplace for Tailwind, Typescript, Svelte, and Snowpack. 
+Using a boilerplate from someplace for SvelteKit.
 
 ## Demo
 Funtionality in terms of user-customization is yet to be implemented.
